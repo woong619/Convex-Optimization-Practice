@@ -26,26 +26,30 @@ cd Convex-Optimization-Practice
 
 ### 3. Set Up the Environment (Manual)
 
+#### 3.1 Create and activate the conda environment
+
 Run the following commands **one by one** in your terminal:
 
 ```bash
-# 1) Create a new conda environment
 conda create -n opt_env python=3.9 -y
-
-# 2) Activate the environment
 conda activate opt_env
+```
 
-# 3) Install required packages
+#### 3.2 Install required Python packages
+
+```bash
 pip install numpy scipy matplotlib jupyterlab ipykernel
+```
 
-# 4) Install PyTorch
-# Option A (recommended): install PyTorch via conda (CPU-only)
-conda install pytorch torchvision -c pytorch -y
+#### 3.3 Install PyTorch
 
-# Option B: install PyTorch via pip (CPU-only)
-# pip install torch torchvision
+```bash
+pip install torch torchvision
+```
 
-# 5) Register Jupyter kernel
+#### 3.4 Register the Jupyter kernel
+
+```bash
 python -m ipykernel install --user --name=opt_env --display-name "opt_env"
 ```
 
