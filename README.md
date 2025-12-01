@@ -17,8 +17,8 @@ This repository provides practical examples of optimization techniques such as *
 Run the following commands to clone the repository:
 
 ```bash
-git clone https://github.com/woong619/Convex_Optimization_Practice.git
-cd Convex_Optimization_Practice
+git clone https://github.com/woong619/Convex-Optimization-Practice.git
+cd Convex-Optimization-Practice
 ```
 
 ---
@@ -68,13 +68,14 @@ Then, open any notebook from the **`notebooks`** folder and select the **`opt_en
 - **Notebook**: `notebooks/Example 3 - ODE for NAG.ipynb`
 - **Description**: Explores the continuous-time ODE formulation of Nesterov’s Accelerated Gradient (NAG) and compares its trajectory with the discrete NAG updates.
 
-### 4. Example 4 - Unified AGM
-- **Notebook**: `notebooks/Example 4 - Unified AGM.ipynb`
+### 4. Example 4 - Optimizer Comparison
+- **Notebook**: `notebooks/Example 4 - Optimizer Comparison.ipynb`
+- **Description**: Compares custom implementations of optimizers (SGD, Nesterov, Adam) with PyTorch’s built-in versions using the MNIST dataset.
+
+### 5. Example 5 - Unified AGM (Optional)
+- **Notebook**: `notebooks/Example 5 - Unified AGM.ipynb`
 - **Description**: Implements and compares three algorithms: AGM-C (convex functions), AGM-SC (strongly convex functions), and Unified AGM (generalized approach for both types).
 
-### 5. Example 5 - Optimizer Comparison
-- **Notebook**: `notebooks/Example 5 - Optimizer Comparison.ipynb`
-- **Description**: Compares custom implementations of optimizers (SGD, Nesterov, Adam) with PyTorch’s built-in versions using the MNIST dataset.
 
 ---
 
