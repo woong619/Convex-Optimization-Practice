@@ -7,11 +7,11 @@ conda activate opt_env
 
 # Install necessary packages
 echo "Installing necessary packages..."
-conda install numpy scipy matplotlib jupyterlab -c conda-forge -y
+pip install numpy scipy matplotlib jupyterlab ipykernel
 
 # Install PyTorch (CPU version)
 echo "Installing PyTorch (CPU version)..."
-pip install torch
+pip install torch torchvision
 
 # Set up Jupyter kernel
 echo "Setting up Jupyter kernel..."
