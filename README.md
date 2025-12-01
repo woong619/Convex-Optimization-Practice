@@ -63,27 +63,27 @@ Then, open any notebook from the **`notebooks`** folder and select the **`opt_en
 
 ### 1. Example 1 - SGD
 
-* **Notebook**: `notebooks/Example 1 - SGD.ipynb`
+* **Notebook**: `notebooks/Example 1.ipynb - SGD`
 * **Description**: Demonstrates Gradient Descent (GD) and Stochastic Gradient Descent (SGD) on a convex quadratic function. It includes both constant and decaying step sizes for SGD.
 
 ### 2. Example 2 - NAG
 
-* **Notebook**: `notebooks/Example 2 - NAG.ipynb`
+* **Notebook**: `notebooks/Example 2.ipynb - NAG`
 * **Description**: Compares Gradient Descent (GD) and Nesterov’s Accelerated Gradient (NAG) for convex and strongly convex quadratic functions.
 
 ### 3. Example 3 - ODE for NAG
 
-* **Notebook**: `notebooks/Example 3 - ODE for NAG.ipynb`
+* **Notebook**: `notebooks/Example 3.ipynb - ODE for NAG`
 * **Description**: Explores the continuous-time ODE formulation of Nesterov’s Accelerated Gradient (NAG) and compares its trajectory with the discrete NAG updates.
 
 ### 4. Example 4 - Optimizer Comparison
 
-* **Notebook**: `notebooks/Example 4 - Optimizer Comparison.ipynb`
+* **Notebook**: `notebooks/Example 4.ipynb - Optimizer Comparison`
 * **Description**: Compares custom implementations of optimizers (SGD, Nesterov, Adam) with PyTorch’s built-in versions using the MNIST dataset.
 
 ### 5. (Optional) Example 5 - Unified AGM
 
-* **Notebook**: `notebooks/Example 5 - Unified AGM.ipynb`
+* **Notebook**: `notebooks/Example 5.ipynb - Unified AGM`
 * **Description**: Implements and compares three algorithms: AGM-C (convex functions), AGM-SC (strongly convex functions), and Unified AGM (generalized approach for both types).
 
 ---
