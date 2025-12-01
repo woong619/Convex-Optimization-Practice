@@ -72,7 +72,7 @@ Then, open any notebook from the **`notebooks`** folder and select the **`opt_en
 - **Notebook**: `notebooks/Example 4 - Optimizer Comparison.ipynb`
 - **Description**: Compares custom implementations of optimizers (SGD, Nesterov, Adam) with PyTorch’s built-in versions using the MNIST dataset.
 
-### 5. Example 5 - Unified AGM (Optional)
+### 5. (Optional) Example 5 - Unified AGM
 - **Notebook**: `notebooks/Example 5 - Unified AGM.ipynb`
 - **Description**: Implements and compares three algorithms: AGM-C (convex functions), AGM-SC (strongly convex functions), and Unified AGM (generalized approach for both types).
 
