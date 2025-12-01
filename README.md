@@ -1,4 +1,3 @@
-````md
 # Convex Optimization Practice
 
 This repository provides practical examples of optimization techniques such as **SGD**, **Nesterov's Method**, and *(optionally)* **Unified AGM**. These examples focus on both convex and non-convex optimization problems.
