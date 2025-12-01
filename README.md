@@ -1,3 +1,4 @@
+````md
 # Convex Optimization Practice
 
 This repository provides practical examples of optimization techniques such as **SGD**, **Nesterov's Method**, and *(optionally)* **Unified AGM**. These examples focus on both convex and non-convex optimization problems.
@@ -8,8 +9,8 @@ This repository provides practical examples of optimization techniques such as *
 
 ### 1. Prerequisites
 
-* Install **Anaconda** from [Anaconda's official website](https://www.anaconda.com/).
-* Ensure your Python version is **3.9** or higher.
+- Install **Anaconda** from [Anaconda's official website](https://www.anaconda.com/).
+- Ensure your Python version is **3.9** or higher.
 
 ---
 
@@ -20,7 +21,7 @@ Run the following commands to clone the repository:
 ```bash
 git clone https://github.com/woong619/Convex-Optimization-Practice.git
 cd Convex-Optimization-Practice
-```
+````
 
 ---
 
@@ -42,7 +43,13 @@ This script will:
   * `matplotlib`
   * `torch`
   * `jupyterlab`
-* Configure the Jupyter kernel for the environment.
+
+If the Jupyter kernel is not installed automatically, register the environment as a Jupyter kernel:
+
+```bash
+conda activate opt_env
+python -m ipykernel install --user --name opt_env --display-name "opt_env"
+```
 
 ---
 
@@ -91,3 +98,5 @@ Then, open any notebook from the **`notebooks`** folder and select the **`opt_en
 ## Author
 
 **Chanwoong Park**
+
+```
